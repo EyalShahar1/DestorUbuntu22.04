@@ -8,12 +8,12 @@ This repository contains the source code for the paper:
 
 Our implementation of the naïve and the deduplication-aware index is based on the Destor open-source storage system: https://github.com/fomy/destor
 
-System requirements: Ubuntu version 16.04, and the list of dependencies installed by the script provided. 
+System requirements: Ubuntu version 22.04, and the list of dependencies installed by the script provided. 
 
 # SETUP & INSTALL #
-MAKE SURE TO USE A CLEAN UBUNTU SERVER 16.04 LTS IMAGE, IF POSSIBLE. (FROM [HERE](https://releases.ubuntu.com/16.04/ubuntu-16.04.7-server-amd64.iso))
+MAKE SURE TO USE A CLEAN UBUNTU SERVER 22.04 LTS IMAGE, IF POSSIBLE. (FROM [HERE](https://releases.ubuntu.com/16.04/ubuntu-16.04.7-server-amd64.iso))
 
-An existing Ubuntu 16.04 machine is also OK. The `install_dependencies.sh` script is meant to run on a clean Ubuntu Server installation.
+An existing Ubuntu 22.04 machine is also OK. The `install_dependencies.sh` script is meant to run on a clean Ubuntu Server installation.
 
 ### install git and pull artifacts repository
 Simply install git and clone the repo.
@@ -22,7 +22,7 @@ Dependencies are installed later in this README in ./install_dependencies.sh :)
 # takes a couple of human minutes :)
 sudo apt update
 sudo apt install git -y
-git clone https://github.com/EyalShahar1/DestorUbuntu22.04.git
+git clone https://github.com/EyalShahar1/IDEA.git
 cd IDEA
 ```
 
