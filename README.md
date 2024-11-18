@@ -52,6 +52,11 @@ RUN this from the IDEA repository to compile the code.
 chmod +x compile.sh
 ./compile.sh
 ```
+# Note #
+if the compile.sh finished with no errors and while running destor you receive libboost not found, try adding /usr/local/bin to the system path:
+```
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+```
 
 ### prepare backup and index directories
 In the destor.config file (discussed later), the paths to the directories containing the destor backup and the IDEA HDD index part and SSD index part are defined.
