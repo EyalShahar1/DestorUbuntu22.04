@@ -39,6 +39,7 @@ Installs the libraries required for IDEA:
 # after that, about twenty minutes of installation, probably less.
 # it is important to notice that this will *UPDATE EXISTING VERSIONS* of your boost and Lucene++.
 # it will download cmake 3.22.1 and it's important to not have an older version because of cmake parameters.
+# if some necessities are missing may need to [PRESS Y ENTER] on several requests.
 chmod +x install_dependencies.sh
 ./install_dependencies.sh
 ```
