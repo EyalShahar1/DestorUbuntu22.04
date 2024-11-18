@@ -22,7 +22,7 @@ Dependencies are installed later in this README in ./install_dependencies.sh :)
 # takes a couple of human minutes :)
 sudo apt update
 sudo apt install git -y
-git clone https://github.com/asaflevi0812/IDEA.git
+git clone [https://github.com/asaflevi0812/IDEA.git](https://github.com/EyalShahar1/DestorUbuntu22.04.git)
 cd IDEA
 ```
 
